@@ -67,18 +67,25 @@ http://localhost:8000/docs
 
 ```json
 {
-  "question": "How does PiHex handle PII?"
+  "question": "We need data residency in India. Is that available?"
 }
 ```
 
 **Response:**
 ```json
 {
-  "answer": "...",
-  "category": "...",
+  "answer": "Yes, data residency in India (India region) is available according to the provided documentation.",
+  "category": "security",
   "confidence": 0.9,
   "sources": [
-    { "doc": "...", "snippet": "..." }
+    {
+      "doc": "policy_security.md",
+      "snippet": "Regional data residency: in (India) and eu (Frankfurt) regions."
+    },
+    {
+      "doc": "changelog.md",
+      "snippet": "India (in) region generally available."
+    }
   ]
 }
 ```
