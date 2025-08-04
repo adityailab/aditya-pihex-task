@@ -51,6 +51,9 @@ docker build -t pihex-api .
 
 # 2. Run the container
 docker run -p 8000:8000 pihex-api
+
+# 3. Then open
+http://localhost:8000/docs
 ```
 
 ---
