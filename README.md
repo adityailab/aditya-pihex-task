@@ -57,7 +57,9 @@ http://localhost:8000/docs
 ```
 
 ---
-
+### Input & Output Screenshot of SwaggerUI
+![input](https://github.com/adityailab/aditya-pihex-task/blob/main/Screenshot%202025-08-04%20at%205.53.53%E2%80%AFPM.png)
+![Output](https://github.com/adityailab/aditya-pihex-task/blob/main/Screenshot%202025-08-04%20at%205.55.22%E2%80%AFPM.png)
 ## 📥 API Usage
 
 **Endpoint:** `POST /ask`  
